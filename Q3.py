@@ -11,7 +11,7 @@ s = (a + b + c) / 2
 yep=(s*(s-a)*(s-b)*(s-c))
 area=0
 if yep<=0:
-    print("")
+    print()
 else:
  area += yep ** 0.5
 
